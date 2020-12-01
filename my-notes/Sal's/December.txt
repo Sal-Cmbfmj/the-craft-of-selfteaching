@@ -1,0 +1,7 @@
+### 12月01日
+
+#### 问题：
+* 阅读到布尔运算章节时发现，fork下来的.ipynb文档，和网页的Markdown、文件夹中的Markdown相比，缺失部分章节，盲猜是个别用户修改并且不小心合并到主分支造成-------从头开始，同时看Markdown和.ipynb文档，对照补全并提交。
+
+#### 摘要
+* 使用 `git init` 命令将一个本地文件夹 `working directory` 初始化为 `local repository` 
