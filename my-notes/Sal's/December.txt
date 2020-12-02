@@ -5,3 +5,19 @@
 
 #### 摘要
 * 使用 `git init` 命令将一个本地文件夹 `working directory` 初始化为 `local repository` 
+
+### 12月02日
+
+#### 记录
+* jupyter lab增加cell快捷键：A（above），B（below）
+* jupyter lab运行代码：Shift+Enter（执行完跳到下一个cell），Control+Enter（执行完停留在本cell）
+
+#### 摘要
+* 一个完整的程序，由一个或者多个**语句**（Statements）构成。通常情况下，建议每一行只写一条语句
+* 关于**函数**，相关的概念有：*函数名*（Function Name）、*参数*（Parameters）、*返回值*（Return Value）、*调用*（Call）
+* 在 Python 语言中，**行首空白**（Leading whitespace，由空格 `' '` 或者 Tab `⇥` 构成）有着特殊的含义，Python 将认为这一行与其他邻近有着相同行首空白的语句同属于一个**语句块** —— 而一个语句块必然由一个行末带有冒号 `:` 的语句起始
+* `+`、`-`、`*`、`/`、`//`、`%`、`**` —— 它们分别代表加、减、乘、除、商、余、幂
+
+#### 其他
+* 定义---不同角度的定义/拆分方式---不同的解法---穷尽所有的可能性
+* 优化---节省算力---省电
