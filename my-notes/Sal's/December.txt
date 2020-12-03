@@ -54,6 +54,7 @@
 * Python 的内建函数：https://docs.python.org/3/library/functions.html
 * Python 的标准数据类型：https://docs.python.org/3/library/stdtypes.html
 * 另外，其实所有的操作符，在 Python 内部也是调用函数完成的：https://docs.python.org/3.7/library/operator.html
+* continue 语句将忽略其后的语句开始下次循环，而 break 语句将从此结束当前循环，开始执行循环之后的语句
 
 #### 补充
 * 元组和列表相关：https://www.liaoxuefeng.com/wiki/1016959663602400/1017092876846880
@@ -64,3 +65,7 @@
 * 要创建一个set，需要提供一个list作为输入集合
 * set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集（&）、并集（|）等操作
 * 对不可变对象进行操作，要赋值给一个新变量去接收
+
+#### 问题：
+* print(f'{r} is even.')，f何解？
+    * 要使用 格式化字符串字面值 ，请在字符串的开始引号或三引号之前加上一个 f 或 F 。在此字符串中，你可以在 { 和 } 字符之间写可以引用的变量或字面值的 Python 表达式
