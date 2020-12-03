@@ -6,6 +6,9 @@
 #### 摘要
 * 使用 `git init` 命令将一个本地文件夹 `working directory` 初始化为 `local repository` 
 
+
+
+
 ### 12月02日
 
 #### 记录
@@ -21,3 +24,43 @@
 #### 其他
 * 定义---不同角度的定义/拆分方式---不同的解法---穷尽所有的可能性
 * 优化---节省算力---省电
+
+
+
+### 12月03日
+
+#### 摘要
+* 在 Python 中每个函数都有返回值，即便你在定义一个函数的时候没有设定返回值，它也会加上默认的返回值 None……（请注意 None 的大小写！）
+* 运算的一个默认法则就是，通常情况下应该是相同类型的值才能相互运算
+* 数值计算的操作符优先级最高，其次是逻辑操作符，布尔值的操作符优先级最低
+* 针对布尔值，优先级最低的是或 or，然后是与 and, 优先级最高的是非 not
+* 字符对应着 Unicode 码，字符在被比较的时候，被比较的是对应的 Unicode 码，当字符串被比较的时候，将从两个字符串各自的第一个字符开始逐个比较，“一旦决出胜负马上停止
+* 有序容器操作：
+    * 拼接：+ 和 ' '（后者是空格）
+    * 拷贝：*
+    * 逻辑运算：in、not in；以及，<、<=、>、>=、!=、==
+* True：
+    By default, an object is considered true unless its class defines either a __bool__() method that returns False or a __len__() method that returns zero, when called with the object.
+    * 非类
+    * 非布尔值False
+    * 非长度为空字符串
+* False：
+    constants defined to be false: None and False.
+    zero of any numeric type: 0, 0.0, 0j, Decimal(0), Fraction(0, 1)
+    empty sequences and collections: '', (), [], {}, set(), range(0)
+* 关于表达式：https://docs.python.org/3/reference/expressions.html
+* 关于所有操作的优先级：https://docs.python.org/3/reference/expressions.html#operator-precedence
+* 上一条链接不懂 BNF 的话根本读不懂：https://en.wikipedia.org/wiki/Backus-Naur_form
+* Python 的内建函数：https://docs.python.org/3/library/functions.html
+* Python 的标准数据类型：https://docs.python.org/3/library/stdtypes.html
+* 另外，其实所有的操作符，在 Python 内部也是调用函数完成的：https://docs.python.org/3.7/library/operator.html
+
+#### 补充
+* 元组和列表相关：https://www.liaoxuefeng.com/wiki/1016959663602400/1017092876846880
+* 字典和集合相关：https://www.liaoxuefeng.com/wiki/1016959663602400/1017104324028448
+* 字典和列表：dict是用空间来换取时间的一种方法，dict的key必须是不可变对象，字典无序
+* 通过key计算位置的算法称为哈希算法（Hash），因此要保证hash的正确性，作为key的对象就不能变
+* set和dict类似，也是一组key的集合，但不存储value。由于key不能重复，所以，在set中，没有重复的key，重复元素在set中自动被过滤
+* 要创建一个set，需要提供一个list作为输入集合
+* set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集（&）、并集（|）等操作
+* 对不可变对象进行操作，要赋值给一个新变量去接收
