@@ -81,3 +81,15 @@
 #### 摘要：
 * for 更适合处理序列类型的数据（Sequence Type）的迭代，比如处理字符串中的每一个字符，比如把 range() 返回的数列当作某种序列类型的索引
 * while 更为灵活，因为它后面只需要接上一个逻辑表达式即可
+
+### 12月08日
+
+#### 补充：
+* print(f'')，里面含有表达式
+* Jupyter lab 快捷操作键：https://www.jianshu.com/p/f21595816abf
+
+#### 摘要：
+* 如果你是设计开关的人就不一样了，你必须知道其中的运作原理；但是，最终，你还是希望你的用户用最简单方便的操作界面，而不是必须搞懂所有原理才能够使用你所设计的产品
+* `print('Hello', 'world!', sep=' ', end='\n', file=sys.stdout, flush=False)`
+    * 如果flush = True，立即返回结果
+    * https://fishc.com.cn/thread-68419-1-1.html
